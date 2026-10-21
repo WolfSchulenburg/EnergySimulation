@@ -1,0 +1,17 @@
+# Beispiel: Wärmebilanz für ein ECHTES, aus gbXML importiertes Gebäude
+# (aus DDScad MEP exportiert - 10 Räume, davon 4 als unbeheizt eingestuft
+# [Flur/Keller mit Space-Temperature 8°C < 15°C], reale U-Werte je Bauteil
+# aus den <Construction>-Elementen der Datei).
+#
+# Grundflaeche/Laenge/Breite/Stockwerke/Dachform/Fensteranteil/
+# Daemmstandard/Uwert_* werden hier NICHT angegeben bzw. ignoriert, sobald
+# GbXML_Datei erfolgreich geladen wird - Geometrie und U-Werte kommen dann
+# vollständig aus der Datei (siehe uGbXMLAnalysis.pas).
+
+Name: Reales Gebäude "Sittensen" (aus gbXML-Import)
+
+GbXML_Datei: beispiel_reales_gebaeude.gbxml
+
+Innentemperatur: 20
+Aussentemperatur_Auslegung: -12
+Standort_Jahresmitteltemperatur: 9.0

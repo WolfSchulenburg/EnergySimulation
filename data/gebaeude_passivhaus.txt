@@ -1,0 +1,17 @@
+# Beispiel: Neubau im Passivhausstandard
+
+Name: Einfamilienhaus Waldweg 9 (Passivhaus)
+Baujahr: 2022
+Daemmstandard: Passivhaus
+
+Grundflaeche: 130
+Hoehe: 2.7
+Stockwerke: 2
+
+Dachform: Flachdach
+Fensteranteil: 22
+Luftwechselrate: 0.3      ; kontrollierte Wohnraumlüftung, sehr dicht
+
+Innentemperatur: 20
+Aussentemperatur_Auslegung: -12
+Standort_Jahresmitteltemperatur: 9.5

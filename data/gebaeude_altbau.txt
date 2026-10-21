@@ -1,0 +1,17 @@
+# Beispiel: unsaniertes Einfamilienhaus, Baujahr 1965
+# Der Dämmstandard wird hier NICHT angegeben, sondern automatisch aus dem
+# Baujahr abgeleitet (siehe uInsulationStandards.pas).
+
+Name: Einfamilienhaus Musterstraße 1 (Altbau)
+Baujahr: 1965
+
+Grundflaeche: 120        ; m² (Laenge/Breite alternativ statt Grundflaeche)
+Hoehe: 2.6                ; Geschosshöhe in m
+Stockwerke: 2
+
+Dachform: Satteldach      ; Flachdach | Satteldach | Walmdach
+Fensteranteil: 15         ; % der Fassadenfläche je Himmelsrichtung
+
+Innentemperatur: 20
+Aussentemperatur_Auslegung: -12
+Standort_Jahresmitteltemperatur: 9.5

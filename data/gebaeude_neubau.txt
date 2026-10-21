@@ -1,0 +1,17 @@
+# Beispiel: Neubau nach aktuellem Standard (EnEV2016/GEG)
+
+Name: Einfamilienhaus Am Sonnenhang 4 (Neubau)
+Baujahr: 2020
+Daemmstandard: EnEV2016   ; überschreibt die aus dem Baujahr abgeleitete Klasse
+
+Laenge: 12
+Breite: 10
+Hoehe: 2.6
+Stockwerke: 2
+
+Dachform: Satteldach
+Fensteranteil: 20
+
+Innentemperatur: 20
+Aussentemperatur_Auslegung: -12
+Standort_Jahresmitteltemperatur: 9.5

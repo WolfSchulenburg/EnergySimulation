@@ -1,0 +1,37 @@
+# Beispiel: dasselbe Gebäude wie gebaeude_neubau.txt, aber mit echten
+# (hier: synthetisch erzeugten Test-) TRY-Stundenwerten statt des
+# synthetischen Jahresklimas - siehe TRY_Datei unten und
+# data/TRY2026_synthetic_Testjahr.dat.
+#
+# WICHTIG: TRY2026_synthetic_Testjahr.dat ist KEINE echte DWD-Messdatei,
+# sondern ein zu Testzwecken erzeugter Datensatz im selben Spaltenformat
+# (siehe uTRYImport.pas) - für eine echte Analyse durch eine reale
+# DWD-Testreferenzjahr-Datei ersetzen.
+
+Name: Einfamilienhaus Am Sonnenhang 4 (Neubau, mit TRY-Wetterdaten)
+Baujahr: 2020
+Daemmstandard: EnEV2016
+
+Laenge: 12
+Breite: 10
+Hoehe: 2.6
+Stockwerke: 2
+
+Dachform: Satteldach
+Fensteranteil: 20
+
+Innentemperatur: 20
+Aussentemperatur_Auslegung: -12
+
+# Standort_Jahresmitteltemperatur wird hier ignoriert, sobald die TRY-Datei
+# erfolgreich geladen wurde - die Erdreichtemperatur wird dann aus deren
+# echtem Jahresmittel berechnet.
+Standort_Jahresmitteltemperatur: 9.5
+
+# Beispielhaft ein anderer Standort als der Hamburg-Default (nur zur
+# Demonstration - die Testdaten selbst sind ortsunabhängig erfunden):
+Standort_Breitengrad: 48.14
+Standort_Laengengrad: 11.58
+Standort_Zeitzone: 1
+
+TRY_Datei: TRY2010_05_Jahr.dat
